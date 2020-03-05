@@ -1,0 +1,36 @@
+---
+label: test
+hide_body: true
+fields:
+- type: field_group_list
+  name: plans
+  label: plans
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: priceAnnually
+    label: priceAnnually
+  - type: text
+    name: priceMonthly
+    label: priceMonthly
+  - type: text
+    name: description
+    label: description
+  - type: text
+    name: planIncludes
+    label: planIncludes
+  - type: text
+    name: buttonText
+    label: buttonText
+  - type: text
+    name: buttonUrl
+    label: buttonUrl
+  - type: field_group_list
+    name: planItems
+    label: planItems
+    fields:
+    - type: text
+      name: text
+      label: text
