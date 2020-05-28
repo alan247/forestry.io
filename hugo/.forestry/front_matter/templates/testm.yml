@@ -1,0 +1,75 @@
+---
+label: testm
+hide_body: false
+fields:
+- type: text
+  name: headline
+  label: headline
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: publishdate
+  label: publishdate
+- type: datetime
+  name: expirydate
+  label: expirydate
+- type: datetime
+  name: date
+  label: date
+- type: textarea
+  name: description
+  label: description
+- type: text
+  name: textline
+  label: textline
+- type: list
+  name: images
+  label: images
+- type: list
+  name: authors
+  label: authors
+- type: list
+  name: categories
+  label: categories
+- type: list
+  name: tags
+  label: tags
+- type: field_group
+  name: cta
+  label: cta
+  fields:
+  - type: text
+    name: headline
+    label: headline
+  - type: text
+    name: textline
+    label: textline
+  - type: field_group_list
+    name: ctas
+    label: ctas
+    fields:
+    - type: text
+      name: RelPermalink
+      label: RelPermalink
+    - type: text
+      name: textline
+      label: textline
+    - type: boolean
+      name: primary
+      label: primary
+    - type: boolean
+      name: button
+      label: button
+- type: boolean
+  name: private
+  label: private
+- type: text
+  name: weight
+  label: weight
+- type: list
+  name: aliases
+  label: aliases
+- type: text
+  name: photo_credit
+  label: photo_credit
